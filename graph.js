@@ -5,7 +5,7 @@ const fs = require('fs');
 
 function generateGraph(ratioData, outputFile) {
   const { ratio, totalPairs } = ratioData;
-  const width = 1200;
+  const width = 1500;
   const height = 600;
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
@@ -45,5 +45,7 @@ function generateGraph(ratioData, outputFile) {
   fs.writeFileSync(outputFile, buffer);
   console.log(`Graph has been saved to ${outputFile}`);
 }
+
+ 
 
 module.exports = { generateGraph };

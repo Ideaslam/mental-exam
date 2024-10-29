@@ -77,7 +77,7 @@ fs.createReadStream("exam.csv")
 
     for (let i in ratio) {
       console.log(
-        ` ${i} identical answers: ${ratio[i]} pairs , ${
+        `${ratio[i]} pairs with ${i} answers : ratio  , ${
           (ratio[i] / pairs.length) * 100
         }% `
       );

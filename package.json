@@ -9,6 +9,8 @@
     "canvas": "^2.11.2",
     "csv-parser": "^3.0.0",
     "csv-writer": "^1.6.0",
-    "fs": "^0.0.1-security"
+    "d3-dsv": "^3.0.1",
+    "fs": "^0.0.1-security",
+    "ml-hclust": "^3.1.0"
   }
 }

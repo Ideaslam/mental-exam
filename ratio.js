@@ -13,7 +13,7 @@ function calculateRatios(pairs) {
   
     for (let count in ratio) {
       console.log(
-        `${count} identical answers: ${ratio[count]} pairs, ${
+        `${ratio[count]} pairs with ${count} answers: , ${
           ((ratio[count] / totalPairs) * 100).toFixed(2)
         }%`
       );

@@ -18,7 +18,7 @@ function readExamData(filePath) {
           const name = row['الاسم'] || `Student ${index + 4}`;
           const answers = [];
 
-          for (let q = 1; q <= 22; q++) {
+          for (let q = 1; q <= 23; q++) {
             const questionKey = `Question ${q}`;
             answers.push(row[questionKey]);
           }
